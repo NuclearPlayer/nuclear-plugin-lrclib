@@ -13,7 +13,7 @@
     ],
     "icon": {
       "type": "link",
-      "link": "https://lrclib.net/favicon.ico"
+      "link": "https://raw.githubusercontent.com/NuclearPlayer/nuclear-plugin-lrclib/master/assets/icon.png"
     },
     "permissions": []
   },

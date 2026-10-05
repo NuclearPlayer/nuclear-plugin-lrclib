@@ -1,10 +1,9 @@
 import type { LrclibRecord } from './lrclib-types';
-import { secondsToMs } from './time';
 
 const distanceFrom =
   (targetMs: number) =>
   (record: LrclibRecord): number =>
-    Math.abs(secondsToMs(record.duration) - targetMs);
+    Math.abs((record.duration * 1000) - targetMs);
 
 const orderByDuration = (
   records: LrclibRecord[],
